@@ -16,8 +16,6 @@ Put it in a folder you can write to (your Desktop, Documents or a folder of your
 
 From 0.1.1 on, Gumdrop looks for new versions every few hours and shows a card in its window when there is one. Nothing installs until you click **Update now**, and never during a race session. It then downloads the new version, checks it and restarts. Your reports are kept, and the version you had stays next to it as `Gumdrop.previous.exe`.
 
-Coming from 0.1.0? That one can't update itself: close it (tray icon, Exit), put the new `Gumdrop.exe` in place of the old one, and start it. Once.
-
 What an update is checked against: its SHA-256 must match the release's `Gumdrop.exe.sha256` and what GitHub reports for the file, it must be signed with Gumdrop's release key (which never leaves the PC the releases are made on), and it must say it is the version the release says. Windows SmartScreen checks the first `Gumdrop.exe` you download from this page; updates the app downloads itself are not checked by SmartScreen, only by these checks and your antivirus as usual.
 
 ## Use it
